@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Shantell+Sans:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(45, 1, 75);
+}
+h2{
+    padding: 2%;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-family: 'Kalam', cursive;
+    font-size: 1.8rem;
+    letter-spacing: 15px;
+    text-shadow: 2px 2px 4px rgb(113, 110, 110);
+
+}
+section{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(136, 0, 255);
+}
+.container{
+    width: 50%;
+    height: 350px;
+    padding: 20px;
+    background: rgb(45, 1, 75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 8px 6px -6px black;
+    font-family: 'Shantell Sans', cursive;
+    
+}
+h3{
+    text-align: center;
+    font-size: 1.5rem;
+}
+input{
+    width: 40%;
+    height: 10%;
+    text-align: center;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color: #dff9fb;
+    color: black;
+    margin: 2rem 0;
+    font-size: 1.1rem;
+}
+button.btn{
+    font-weight: 600;
+    padding: 1rem 2rem;
+    background: white;
+    color: rgb(45, 1, 75);
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    transition-property: all ;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.65, 0.25, 0.25, 1.95);
+}
+button.btn:hover, button.btn:focus, button.btn:active{
+    letter-spacing: 0.125rem;
+    word-spacing: 0.2rem;
+}
+.hidden{
+    display: none;
+}
+.result{
+    color: whitesmoke;
+}
+footer{
+    height: 5vh;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(45, 1, 75);
+    color: #fff;
+}
